@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+
+.box {
+  /*
+  width: 50vw;
+  height: 50vh; */
+  width: 100%;
+  height: 780px;
+  background-image: linear-gradient(to left bottom, #8e48cf 20%, #942581 80%);
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 400px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 30px;
+
+}
+
+.input_field{
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 12px;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 25px;
+  width: 250px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #e38dd3;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+  height: 45px;
+  width: 130px;
+}
+
+.tagline{
+  margin-top: 150px;
+}
+
+.tagline img {
+  float: left;
+  height: 540px;
+  width: 900px;
+  background: #555;
+}
+
+.tagline h1 {
+  margin-left: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; 
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+
+.tagline h3 {
+  position: relative;
+  color: white;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-left: 50px;
+  top: 0px;
+  left: 100px;
+}
+
+.tagline button {
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 35px;
+  height: 60px;
+  width: 230px;
+  color: #24a8e0;
+  font-size: 20px;
+}
