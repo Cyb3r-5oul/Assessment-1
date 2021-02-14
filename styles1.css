@@ -1,0 +1,1030 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 780px;
+    background-image: linear-gradient(to left bottom, #8e48cf 20%, #942581 60%);
+}
+
+.input_field {
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: left;
+    margin-top: 0px;
+    border-radius: 25px;
+    height: 30px;
+    width: 250px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #e38dd3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    height: 50px;
+    width: 130px;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.nav img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul{
+   list-style-type: none;
+   overflow: hidden;
+   margin:  50px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.menu ul li input {
+    margin-right: 30px;
+}
+
+.menu ul li button {
+    margin-right: 100px;
+}
+
+.menu ul .icon {
+    display: none;
+}
+
+.tagline img {
+    margin-top: 150px;
+    width: 50%;
+    height: 600px;;
+}
+
+.tagline .web_h1 {
+    float: right;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+}
+
+.tagline .mobile_h1{
+    display: none;
+}
+
+.tagline h4 {
+    color: white;
+    position: absolute;
+    top: 500px;
+    right: 565px;
+}
+
+.tagline button {
+    top: 600px;
+    right: 565px;
+    position: absolute;
+    border-radius: 35px;
+    height: 70px;
+    width: 260px;
+    color: #24a8e0;
+    font-size: 20px;
+}
+
+/* Section 2 */
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section2 {
+    margin-top: 100px;
+}
+
+.section2 h3 {
+    //font-size: 24px;
+    //font-weight: bold;
+    //text-align: center;
+}
+
+.section2 h2 {
+    //font-weight: normal;
+    //text-align: center;
+    //font-size: 50px;
+}
+
+.section2 h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Flexbox 1 */
+.flex_container {
+    margin: 120px 20%;
+    padding: auto 50px;;
+    display: flex;
+    background-color: white;
+    //border: 1px solid black;
+  }
+  
+.flexbox {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    //border: 1px solid black;
+
+    position: relative;
+  }
+
+.flex_container .flexbox img {
+    position: absolute;
+    top: 30px;
+}  
+
+.flex_container .flexbox h5 {
+    //float: right;
+    //text-align: left;
+    //margin-left: 60px;
+    //margin-top: 0px; 
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    top: 0px;
+    left: 80px;
+}  
+
+.flex_container .flexbox p {
+    text-align: left;
+    margin: 70px 0px;
+
+}
+
+/*  End of FLexbox 1 */
+
+/* Section 3 */
+
+.section3{
+    text-align: center;
+    align-content: center;
+}
+
+.section3 h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.section3 button {
+    background: #24a8e0;
+    color: white;
+    height: 70px;
+    width: 230px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+.laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 4 */
+
+.section4 .box {
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    align-content: center;
+}
+
+.section4 .box h3 {
+    color: white;
+    //margin-top: 100px;
+}
+
+.section4 .box .web_h1 {
+    //text-align: center;
+}
+
+.section4 .box .mobile_h1 {
+    display: none;
+}
+
+.section4 .box h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    //text-align: center;
+}
+
+.section4 .box .input_field {
+    width: 350px;
+    margin: auto auto;
+    display: block; 
+}
+
+.section4 .box button {
+    background: #cc1665;
+    color: white;
+    margin: auto auto;
+    display: block;
+    width: 390px;
+}
+
+/* Section 5 */
+.section5 h1 {
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.section5 h4 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.grid_wrapper {
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.item {
+    background: white;
+    color: black;
+    padding: 10px;
+    //border: 1px solid black;
+}
+
+.grid_wrapper .item img {
+    width: 30%;
+    height: 35%;
+    margin-left: 35%;
+}
+
+.grid_wrapper .item p {
+    text-align: center;
+    font-weight: normal;
+    margin: 5% 20%; 
+}
+
+.section5 button {
+    background: #24a8e0;
+    color: white;
+    height: 70px;
+    width: 280px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: 80px 42%;
+}
+
+/* Section 6 */
+
+.section6 h1 {
+    margin-top: 60px;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+}
+
+.section6 .dropbox_logo {
+    width: 15%;
+    height: 20%;
+    display: block;
+    margin: 5% auto auto;
+}
+
+.section6 h4 {
+    display: block;
+    text-align: center;
+    margin: 5% 34%;
+}
+
+.section6 .user {
+    display: flex;
+    padding: auto 80px;;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    //border: 1px solid black;
+    margin: 0 42%;
+}
+
+.section6 .user img {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: -80px;
+    //top: 8px;
+    margin: 5% auto auto;
+}
+
+.section6 .user h4 {
+    display: block;
+    margin: 0 10px;
+    font-size: 15px;
+    position: absolute;
+    //top: 6px;
+    left: 150px;
+}
+
+.section6 .user h3 {
+    display: block;
+    margin: 0 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+.section6 button {
+    background: #24a8e0;
+    color: white;
+    height: 70px;
+    width: 280px;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: 80px 42%;
+}
+
+/* Section 7 */
+
+.section7{
+    display: block;
+    margin-top: 10%;
+}
+
+.section7 h1{
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.section7 h4{
+    text-align: center;
+    margin: auto 43%;
+}
+
+.section7 .flex_container{
+    display: flex;
+    //border: 1px solid black;
+    margin: 5% 10%;
+}
+
+.section7 .flex_container .flexbox {
+    width: 30%;
+    padding: 2%;
+    border: 1px solid #adb5ba;
+    margin: 2%;
+    border-radius: 15px;
+}
+
+.gbox{
+    //margin: 0;
+    background-image: linear-gradient(to left bottom, #8e48cf 20%, #942581 60%);
+    width: 100%;
+    height: 100%;
+}
+
+.section7 .flex_container .flexbox h3 {
+    margin-top: 0%;
+    margin-bottom: 0%; 
+    text-align: left;
+    font-size: 25px;
+}
+
+.section7 .flex_container .flexbox h5 {
+    //text-align: left;
+    //float: left;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: -11%;
+    //margin-right: 10px;
+    display: block;
+}
+
+.section7 .flex_container .flexbox .dollar {
+    display: block;
+    margin: 70px 30px;
+    position: relative;
+    text-align: left;
+}
+
+.section7 .flex_container .flexbox .dollar h4 {
+    font-size: 60px;
+    position: absolute;
+    top: 5%;
+    right: 40%;
+}
+
+.section7 .flex_container .flexbox .dollar span{
+    //position: absolute;
+    margin-left: 20%;
+    //margin-top: 10px;
+}
+
+.section7 .flex_container .flexbox button{
+    background: #24a8e0;
+    color: white;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 5% auto;
+}
+
+
+/* Section 8 */
+.section8 {
+    background: #252B42;
+    padding: 5%;
+}
+
+.section8 h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.section8 h4 {
+    text-align: center;
+    color: white;
+    margin: auto 41%;
+    font-size: 16px;
+}
+
+.section8 .flex_container {
+    background: #252B42;
+    //border: 1px solid snow;
+}
+
+.section8 .flex_container .flexbox{
+    //background: #252B42;
+    padding-top: 5%;
+    margin: 5% 5%;
+    border-radius: 20px;
+    //border: 1px solid gray;
+}
+
+.section8 .flex_container .flexbox .input_field{
+    display: block;
+    width: 80%;
+    margin: 5% auto;
+    background: #f0f0f2;
+}
+
+.section8 .flex_container .flexbox .input_mfield{
+    height: 130px;
+    width: 80%;
+    margin: 5% 5%;
+    background: #f0f0f2;
+    text-align: top;
+    border: none;
+    padding: 5%;
+}
+
+.section8 .flex_container .flexbox button{
+    background: #cc1665;
+    color: white;
+    //display: block;
+    margin-left: 5%;
+}
+
+.section8 .flex_container .flexbox .contact {
+    margin: 5% 10%;
+}
+
+.section8 .flex_container .flexbox .contact img {
+    width: 15%;
+    height: 7%;
+}
+
+.section8 .flex_container .flexbox .contact .pin {
+    margin: 17% -13%;
+}
+
+.section8 .flex_container .flexbox .contact span {
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 25%; 
+}
+
+.section8 .flex_container .flexbox .contact .phone {
+    margin: 45% -13%;
+}
+
+.section8 .flex_container .flexbox .contact .email {
+    margin: 67% -13%;
+}
+
+#social {
+    background: #252B42;
+}
+
+.section8 .flex_container .flexbox .social {
+    display: block;
+    margin: 20%;  
+}
+
+.section8 .flex_container .flexbox .social img {
+    width: 15%;
+    height: 7%;
+}
+
+.section8 .flex_container .flexbox .social .facebook {
+    margin: 95% -13%;
+}
+
+.section8 .flex_container .flexbox .social .twitter {
+    margin: 95% 10%;
+}
+
+.section8 .flex_container .flexbox .social .linkedin {
+    margin: 95% 33%;
+}
+
+/* Section 9 */
+.section9 .flex_container{
+    margin: 5% 12%;
+    //border: 1px solid black;
+}
+
+.section9 .flex_container .flexbox{
+    width: 30%;
+    padding-top: 5%;
+    margin: 5% 2%;
+    border-radius: 20px;
+    //border: 1px solid gray;
+}
+
+.section9 .flex_container .pages h3 {
+    font-size: 20px;
+    margin: 10% 16%;
+    text-align: left;
+}
+
+.section9 .flex_container .pages ul{
+    list-style-type: none;
+   
+}
+
+.section9 .flex_container #map {
+    width: 80%;
+}
+
+.section9 .flex_container .pages ul li{
+    text-align: left;
+    margin: 5% 0;
+    font-size: 15px;
+}
+
+.section9 .flex_container #map img{
+    width: 100%;
+    height: 100%;
+    margin-left: -20px;
+    margin-top: -30px; 
+    border-radius: 25px;
+}
+
+#social2 {
+    background: white;
+}
+
+.section9 .flex_container .contacts img{
+    width: 13%;
+    height: 9%;
+}
+
+.section9 .flex_container .contacts .pin{
+    margin: 24% -8.5%;
+}
+
+.section9 .flex_container .contacts span {
+    color: black;
+    font-size: 12px;
+    margin-left: 20px;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 25%; 
+}
+
+.section9 .flex_container .contacts .phone{
+    margin: 52% -8.5%;
+}
+
+.section9 .flex_container .contacts .email{
+    margin: 79% -8%;
+    width: 12%;
+}
+
+.section9 .flex_container .contacts .social {
+    display: block;
+    margin: 30% 10%;  
+}
+
+.section9 .flex_container .contacts .social img {
+    width: 15%;
+    height: 7%;
+}
+
+.section9 .flex_container .contacts .social .facebook {
+    margin: 95% -13%;
+}
+
+.section9 .flex_container .contacts .social .twitter {
+    margin: 95% 10%;
+}
+
+.section9 .flex_container .contacts .social .linkedin {
+    margin: 95% 33%;
+}
+
+/* MEDIA QUERIES FOR MOBILE DEVICES */
+@media screen and (max-width: 480px) {
+
+    .box {
+        height: 700px;
+    }
+
+    .nav img {
+        margin-left: 10px;
+    }
+
+    .menu ul li {
+        display: none;
+    }
+
+    .menu ul .icon {
+        display: block;
+        margin: 12;
+        color: white;
+    }
+
+    .tagline .web_h1 {
+        display: none;
+    }
+
+    .tagline .mobile_h1 {
+        margin: 60px 3% auto;
+        //top: 60px;
+        //left: 5px;
+        text-align: center;
+        display: block;
+        //float: center;
+        font-weight: normal;
+        font-size: 45px;
+        color: white;
+        //position: relative;
+    }
+
+    
+    .tagline h4 {
+        margin: auto 3% auto;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 5px;
+    } 
+
+    .tagline img {
+        margin: 240px 5%;
+        width: 90%;
+        height: 30%;
+        position: absolute;
+        //display: block;
+    }
+
+    .tagline button {
+        
+        top: 360px;
+        left: 70px;
+        //position: absolute;
+        border-radius: 35px;
+        height: 60px;
+        width: 230px;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        background: #24a8e0;
+        //margin: 10% 30%;
+    }   
+
+    .flex_container {
+        margin: 80px 20px;
+        flex-direction: column;
+    }
+    
+    .flexbox {
+        padding: 10px;
+    }
+
+    .flex_container .flexbox p {
+        margin-top: 80px;
+    }
+
+    .laptop {
+        width: 90%;
+        margin: auto 5% 5%;
+    }
+
+    /* Section 4  */
+    .section4 .box .web_h1{
+        display: none;
+    }
+
+    .section4 .box .mobile_h1 {
+        display: block;
+    }
+    
+    .section4 .box .input_field{
+        width: 270px;
+    }
+
+    .section4 .box button {
+        width: 320px;
+    }
+
+    .grid_wrapper {
+        width: 80%;
+        background: white;
+        color: black;
+        padding: 10px;
+        grid-template-columns: 1fr;
+        //border: 1px solid black;
+    }
+
+    .item:nth-last-child(-n + 3) { 
+        display: none;
+    }
+
+    .section5 button {
+        display: block;
+        margin: 30px auto;
+    }
+
+    /* Section 6 */
+
+    .section6 h1 {
+        font-size: 40px;
+    }
+
+    .section6 button {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .section6 .dropbox_logo {
+        width: 55%;
+        height: 50%;
+        display: block;
+        margin: auto auto;
+    }
+
+    .section6 h4 {
+        margin: 10% 10%;
+    }
+
+    .section6 .user {
+        display: flex;
+        margin: 0 20%;
+        padding: 2%;        
+    }
+    .section6 .user img {
+        width: 30%;
+        margin-left: 100px;
+    }
+    .section6 .user h4 {
+        display: block;
+        font-size: 10px;
+        margin: 0ch;
+        left: 100px;
+    }
+    .section6 .user h3 {
+        display: block;
+        position: absolute;
+        font-size: 12px;
+        //margin: 0% 10%;
+        left: 90px;
+    }
+
+    .section7 h4{
+        text-align: center;
+        margin: auto 15%;
+    }
+
+    .section7 .flex_container .flexbox {
+        width: 90%;
+        margin: 10% auto;
+        padding: 10% auto;
+    }
+
+    .section7 .flex_container .flexbox h3 {
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 0%; 
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .section7 .flex_container .flexbox h5 {
+        font-size: 15px;
+        margin-top: 25%;
+        margin-left: -17%; 
+        display: block;
+    }
+
+    .section7 .flex_container .flexbox .dollar h4 {
+        top: -15%;
+        left: -40%;
+    }
+    
+    .section7 .flex_container .flexbox .dollar span{
+        margin-left: 40%;
+        font-weight: bold; 
+    }
+
+    .section8 h4 {
+        text-align: center;
+        color: white;
+        margin: auto 10%;
+        font-size: 16px;
+    }
+
+
+    .section8 .flex_container .flexbox .contact img {
+        width: 15%;
+        height: 10%;
+        margin-left: 2px;
+    }
+
+    .section8 .flex_container .flexbox .contact .pin {
+        margin: 2% -13%;
+    }
+
+    .section8 .flex_container .flexbox .contact span {
+        font-size: 12px;
+        margin-left: 20px;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 25%; 
+    }
+    
+    .section8 .flex_container .flexbox .contact .phone {
+        margin: 28% -13%;
+    }
+    
+    .section8 .flex_container .flexbox .contact .email {
+        margin: 50% -13% ;
+    }
+    
+    .section8 .flex_container .flexbox .social{
+        display: block;
+        margin: 0% 20%;
+        padding: 0;
+    }
+
+    .section8 .flex_container .flexbox .social img {
+        width: 12%;
+        height: 10%;
+    }
+
+    .section8 .flex_container .flexbox .social .facebook {
+        margin: 68% -13%;
+    }
+    
+    .section8 .flex_container .flexbox .social .twitter {
+        margin: 68% 10%;
+    }
+    
+    .section8 .flex_container .flexbox .social .linkedin {
+        margin: 68% 33%;
+    }
+
+    /*   Section 9 */
+    .section9 .flex_container .flexbox{
+        width: 90%;
+    }
+
+    .section9 .flex_container .pages h3 {
+        text-align: center;
+    }
+
+    .section9 .flex_container .flexbox ul{
+        margin: auto 18%;
+    }
+
+    .section9 .flex_container .flexbox ul li {
+        margin-top: 20%; 
+        font-weight: 500;
+    }
+
+    .section9 .flex_container #map {
+        width: 85%;
+        height: 200px;
+    }
+
+    .section9 .flex_container #map img {
+        margin-left: -10px;
+        margin-top: -29px;
+    }
+
+    .section9 .flex_container .flexbox .contact img {
+        width: 15%;
+        height: 10%;
+        margin-left: 2px;
+    }
+
+    .section9 .flex_container .flexbox .contact .pin {
+        margin: 2% -2%;
+    }
+
+    .section9 .flex_container .flexbox .contact span {
+        font-size: 12px;
+        margin-left: 50px;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 20%; 
+    }
+    
+    .section9 .flex_container .flexbox .contact .phone {
+        margin: 28% -2%;
+    }
+    
+    .section9 .flex_container .flexbox .contact .email {
+        margin: 50% -2% ;
+    }
+
+    .section9 .flex_container .contacts .social{
+        display: block;
+        margin: 0% 15%;
+        padding: 0;
+    }
+
+    .section9 .flex_container .contacts .social img {
+        width: 12%;
+        height: 10%;
+    }
+
+    .section9 .flex_container .contacts .social .facebook {
+        margin: 68% -13%;
+    }
+    
+    .section9 .flex_container .contacts .social .twitter {
+        margin: 68% 10%;
+    }
+    
+    .section9 .flex_container .contacts .social .linkedin {
+        margin: 68% 33%;
+    }
+
+}
